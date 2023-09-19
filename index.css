@@ -1,0 +1,43 @@
+*{
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card{
+    background-color: rgb(15, 127, 231);
+    width: 30%;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.card h1{
+    color: brown;
+    font-weight: bold;
+}
+
+.card input{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.card button{
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.card button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    
+}
